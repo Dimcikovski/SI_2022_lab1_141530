@@ -80,7 +80,7 @@
 
           Initial commit
 
-18. "git add ." potoa "git commit -a-mend -m "Modify item #4 and add item #6"
+18. "git add ." potoa "git commit --amend -m "Modify item #4 and add item #6"
 19.
 
       commit 29902a51938c20dc95502abcb7f5d05a532c9e36 (HEAD -> branch2)
@@ -124,3 +124,4 @@
       ~
 20. "git checkout master" potoa "git merge branch1"
 21. "git merge branch2"
+22. "git add ." potoa "git commit -m "Add docs"
