@@ -1,6 +1,5 @@
 Apple x 2
 Banana x 31
 Orange x 4
-Watermelon x 1
-Lemon x 3
-Strawberry x 11
+Kiwi x 1
+Lemon x 32
