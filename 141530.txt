@@ -1,0 +1,126 @@
+4. git clone https://github.com/Dimcikovski/SI_2022_lab1_141530.git
+5. "git add ." potoa "git commit -m "Add 5 items to the shopping list"
+6. "git add ." potoa "git commit -m "Add quantities to the items"
+7. "git branch branch1" potoa "git branch branch2"
+8. 
+      commit 8dd39be96923c46d5c56ce53b84b4735df151982 (HEAD -> master, branch2, branch1)
+      Author: Gjorgji Dimchikovski <Gjorgji.Dimchikovski@wsa.com>
+      Date:   Sun Mar 13 14:51:59 2022 +0100
+
+          Add quantities to the items
+
+      commit 054f8bc22a51df7d9498d196cbbd55a05053e0d9
+      Author: Gjorgji Dimchikovski <Gjorgji.Dimchikovski@wsa.com>
+      Date:   Sun Mar 13 14:50:33 2022 +0100
+
+          Add 5 items to the shopping list
+
+      commit 2f79bb70a5a8937367a4690b66ea5624dd353b23 (origin/master, origin/HEAD)      
+      Author: Dimcikovski <dimcikovski21@gmail.com>
+      Date:   Sun Mar 13 14:46:07 2022 +0100
+
+          Update README.md
+
+      commit 5060ec9230005a77475cfe52e42590dc9cde5e9f
+      Author: Dimcikovski <dimcikovski21@gmail.com>
+      Date:   Sun Mar 13 14:45:32 2022 +0100
+
+          Initial commit
+      ~
+      ~
+      ~
+      ~
+      ~
+      ~
+      ~
+      ~
+      ~
+      ~
+      ~
+      ~
+      ~
+      ~
+      ~
+9. "git push origin -u master"
+10. "git checkout branch1"
+11. "git add ." potoa "git commit -m "Change quantity of item #5"
+12. "git checkout master"
+13. "git add ." potoa "git commit -m "Change quantity of item #2"
+14. "git push --all origin"
+15. "git checkout branch2"
+16. "git add ." potoa "git commit -m "Modify item #4"
+17. 
+      commit cda1f686df933ddb49fdfecdf77c4858d4cd066f (HEAD -> branch2)
+      Author: Gjorgji Dimchikovski <Gjorgji.Dimchikovski@wsa.com>
+      Date:   Sun Mar 13 15:13:06 2022 +0100
+
+          Modify item #4
+
+      commit 8dd39be96923c46d5c56ce53b84b4735df151982 (origin/branch2)
+      Author: Gjorgji Dimchikovski <Gjorgji.Dimchikovski@wsa.com>
+      Date:   Sun Mar 13 14:51:59 2022 +0100
+
+          Add quantities to the items
+
+      commit 054f8bc22a51df7d9498d196cbbd55a05053e0d9
+      Author: Gjorgji Dimchikovski <Gjorgji.Dimchikovski@wsa.com>
+      Date:   Sun Mar 13 14:50:33 2022 +0100
+
+          Add 5 items to the shopping list
+
+      commit 2f79bb70a5a8937367a4690b66ea5624dd353b23
+      Author: Dimcikovski <dimcikovski21@gmail.com>
+      Date:   Sun Mar 13 14:46:07 2022 +0100
+
+          Update README.md
+
+      commit 5060ec9230005a77475cfe52e42590dc9cde5e9f
+      Author: Dimcikovski <dimcikovski21@gmail.com>
+      Date:   Sun Mar 13 14:45:32 2022 +0100
+
+          Initial commit
+
+18. "git add ." potoa "git commit -a-mend -m "Modify item #4 and add item #6"
+19.
+
+      commit 29902a51938c20dc95502abcb7f5d05a532c9e36 (HEAD -> branch2)
+      Author: Gjorgji Dimchikovski <Gjorgji.Dimchikovski@wsa.com>      
+      Date:   Sun Mar 13 15:13:06 2022 +0100
+
+          Modify item #4 and add item #6
+
+      commit 8dd39be96923c46d5c56ce53b84b4735df151982 (origin/branch2)
+      Author: Gjorgji Dimchikovski <Gjorgji.Dimchikovski@wsa.com>
+      Date:   Sun Mar 13 14:51:59 2022 +0100
+
+          Add quantities to the items
+
+      commit 054f8bc22a51df7d9498d196cbbd55a05053e0d9
+      Author: Gjorgji Dimchikovski <Gjorgji.Dimchikovski@wsa.com>
+      Date:   Sun Mar 13 14:50:33 2022 +0100
+
+          Add 5 items to the shopping list
+
+      commit 2f79bb70a5a8937367a4690b66ea5624dd353b23
+      Author: Dimcikovski <dimcikovski21@gmail.com>
+      Date:   Sun Mar 13 14:46:07 2022 +0100
+
+          Update README.md
+
+      commit 5060ec9230005a77475cfe52e42590dc9cde5e9f
+      Author: Dimcikovski <dimcikovski21@gmail.com>
+      Date:   Sun Mar 13 14:45:32 2022 +0100
+
+          Initial commit
+      ~
+      ~
+      ~
+      ~
+      ~
+      ~
+      ~
+      ~
+      ~
+      ~
+20. "git checkout master" potoa "git merge branch1"
+21. "git merge branch2"
